@@ -1,0 +1,21 @@
+.search-container {
+  max-width: 450px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  margin-top: 30px;
+}
+
+.search-bar {
+  width: 390px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.search-icon {
+  width: 30px;
+  padding: 0.2rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
