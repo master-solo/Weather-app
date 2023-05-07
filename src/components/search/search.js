@@ -42,7 +42,7 @@ const Search = ({ onSearchChange }) => {
         onChange={(e) => setName(e.target.value)}
       />
       <img
-        src="/images/search.png"
+        src="./images/search.png"
         alt=""
         className="search-icon"
         onClick={() => handleOnSearch()}
