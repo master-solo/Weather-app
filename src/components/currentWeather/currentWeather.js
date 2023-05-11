@@ -41,17 +41,17 @@ const CurrentWeather = () => {
         <div className="detail-main">
           <span className="d-title">Details</span>
           <div className="details">
-            <img src="/images/humidity.png" alt="" className="d-icon h-i" />
+            <img src="./images/humidity.png" alt="" className="d-icon h-i" />
             <span className="d-s">Humidity</span>
             <span>{data.humidity}%</span>
           </div>
           <div className="details">
-            <img src="/images/wind.png" alt="" className="d-icon w-i" />
+            <img src="./images/wind.png" alt="" className="d-icon w-i" />
             <span className="d-s">Wind speed</span>
             <span>{data.wind} m/s</span>
           </div>
           <div className="details">
-            <img src="/images/pressure.png" alt="" className="d-icon p-i" />
+            <img src="./images/pressure.png" alt="" className="d-icon p-i" />
             <span className="d-s">Pressure</span>
             <span>{data.pressure} hps</span>
           </div>
